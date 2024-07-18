@@ -1,0 +1,135 @@
+.burger {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  background: bisque;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.total {
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.topSide {
+  background-color: #e07a04f1;
+  height: 80px;
+  width: 300px;
+  text-align: center;
+  border-top-right-radius: 70px;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.bottomSide {
+  background-color: #e07a04f1;
+  background-size: 300px;
+  height: 75px;
+  width: 300px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+.salad {
+  height: 20px;
+  width: 310px;
+  margin: auto;
+  display: block;
+  background-color: rgba(30, 233, 40, 0.76);
+  border-radius: 20px;
+}
+.tomato {
+  height: 15px;
+  width: 300px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(247, 27, 27, 0.918);
+  display: block;
+}
+.pickles {
+  height: 15px;
+  width: 280px;
+  margin: auto;
+  display: block;
+  background-color: rgba(15, 65, 18, 0.76);
+  border-radius: 20px;
+}
+.cheese {
+  background-color: rgba(231, 202, 38, 0.829);
+  height: 10px;
+  width: 306px;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+.meat {
+  background-color: rgb(97, 41, 2);
+  height: 36px;
+  width: 316px;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+}
+
+.ingredientsBlock {
+  margin: 30px 30px;
+  display: table;
+  width: 350px;
+  height: 300px;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 30px 20px rgba(97, 61, 61, 0.774);
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingrBtns {
+  margin: 0 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.ingrBtn {
+  margin: 15px;
+  border: 10%;
+  background-color: #f0e9e8;
+  color: #000;
+  padding: 5px;
+  cursor: pointer;
+  display: block;
+  width: 145px;
+  font-size: 16px;
+}
+
+.buyBtn {
+  border: lab(from #f0e9e8 l a b);
+  background-color: #dbb02e;
+  color: #000;
+  padding: 15px 12px;
+  cursor: pointer;
+  width: 125px;
+  font-size: 18px;
+  border-radius: 15px;
+  margin: 20px 680px;
+}
+.buyBtn:hover {
+  background-color: #948553;
+}
